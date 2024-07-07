@@ -12,9 +12,24 @@ The tech stack for the project consists of two main components:
 - **Software**
 - **Hardware**
 
-The **Software** stack is created using ReactJS for the front-end, Flask framework for the back-end with JWT for authentication, and PostgreSQL for the database.
+The **Software** stack is created using:
 
-The **Hardware** architecture consists of an ESP32 microcontroller, a SIM700C SIM module, and a NEO-6M GPS module.
+- **Frontend**
+
+  - ReactJS + vite
+
+- **Backend**
+  - Flask
+  - JWT for authentication
+  - PostgreSQL
+  - Docker
+  - AWS
+
+The **Hardware** architecture consists of:
+
+- ESP32 microcontroller
+- SIM700C SIM module
+- NEO-6M GPS module.
 
 ### Hardware Connection
 
@@ -56,4 +71,4 @@ Finally, the app was deployed on AWS using an EC2 instance with an Elastic IP ad
 
    ## Documentation will be provided in the files
 
-# GPS-Violation-Detection
+   # GPS-Violation-Detection
