@@ -55,4 +55,5 @@ Finally, the app was deployed on AWS using an EC2 instance with an Elastic IP ad
    ```
 
    ## Documentation will be provided in the files
+
 # GPS-Violation-Detection
