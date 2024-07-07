@@ -1,4 +1,4 @@
-# Violation-Detection-GPS
+# Violation Detection GPS
 
 ## Project Description
 
@@ -9,10 +9,7 @@ This is a GPS tracking system with new features such as:
 
 The tech stack for the project consists of two main components:
 
-- **Software**
-- **Hardware**
-
-The **Software** stack is created using:
+**Software**
 
 - **Frontend**
 
@@ -25,15 +22,33 @@ The **Software** stack is created using:
   - Docker
   - AWS
 
-The **Hardware** architecture consists of:
+**Hardware**
 
 - ESP32 microcontroller
 - SIM700C SIM module
 - NEO-6M GPS module.
 
-### Hardware Connection
+## Features
+
+- Users can set specific areas and speed limits for drivers.
+
+  ![Geofencing and Speed limitation](/imgs/map-screen.png)
+
+- When a Violation occurs, an alert is raised and sent to the user.
+
+  ![Alert](/imgs/alerts.png)
+
+## Appflow
+
+Here's the Appflow:
+
+![Appflow](/imgs/app-flow.png)
+
+## Hardware Connection
 
 ![Hardware Architecture](/imgs/hardware_architicture.jpeg)
+
+## Deployment
 
 To transform this app into a microservices architecture, Docker was used to containerize the back-end services, the database, and the front-end.
 
@@ -68,7 +83,3 @@ Finally, the app was deployed on AWS using an EC2 instance with an Elastic IP ad
    ```bash
    npm run dev
    ```
-
-   ## Documentation will be provided in the files
-
-   # GPS-Violation-Detection
